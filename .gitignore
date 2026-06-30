@@ -1,44 +1,63 @@
-# ==========================
-# Node / React Native
-# ==========================
+# =========================
+# NODE / JS
+# =========================
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-android/.gradle/
-android/build/
-android/app/build/
-
-ios/build/
-
-# Expo
+# =========================
+# REACT NATIVE
+# =========================
 .expo/
 .expo-shared/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
 
-# ==========================
-# Python
-# ==========================
+# Metro
+.metro-cache/
+
+# React Native build
+android/app/build/
+android/build/
+ios/build/
+ios/Pods/
+
+# =========================
+# ANDROID (CRÍTICO)
+# =========================
+**/.gradle/
+**/.cxx/
+**/local.properties
+**/captures/
+*.iml
+
+# =========================
+# IOS
+# =========================
+ios/Pods/
+ios/build/
+
+# =========================
+# PYTHON (BACKEND FASTAPI)
+# =========================
 backend/venv/
-__pycache__/
+backend/__pycache__/
 *.pyc
-*.pyo
-
-# ==========================
-# Archivos temporales
-# ==========================
-backend/uploads/
 *.log
+backend/uploads/
 
-# ==========================
-# Firebase
-# ==========================
-google-services.json
-
-# ==========================
-# VS Code
-# ==========================
-.vscode/
-
-# ==========================
-# Sistema Operativo
-# ==========================
+# =========================
+# SYSTEM
+# =========================
 .DS_Store
 Thumbs.db
+
+# =========================
+# EDITORS
+# =========================
+.vscode/
+.idea/
