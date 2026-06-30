@@ -1,0 +1,4 @@
+C:/Users/pulup/CallShieldAI/android/app/.cxx/Debug/465a5836/x86/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+C:/Users/pulup/CallShieldAI/android/app/.cxx/Debug/465a5836/x86/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+C:/Users/pulup/CallShieldAI/android/app/.cxx/Debug/465a5836/x86/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+C:/Users/pulup/CallShieldAI/android/app/.cxx/Debug/465a5836/x86/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir

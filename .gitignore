@@ -1,0 +1,25 @@
+# Node
+node_modules/
+
+# React Native
+android/.gradle/
+android/build/
+android/app/build/
+ios/build/
+
+# Python
+backend/venv/
+__pycache__/
+*.pyc
+
+# Firebase
+google-services.json
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store

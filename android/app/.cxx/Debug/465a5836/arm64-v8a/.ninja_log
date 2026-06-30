@@ -1,0 +1,16 @@
+# ninja log v5
+2	25	0	C:/Users/pulup/CallShieldAI/android/app/.cxx/Debug/465a5836/arm64-v8a/CMakeFiles/cmake.verify_globs	a82cb695a94967ac
+55	12899	8039483067810953	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/95a7e74d6e575e69f971fd35b99c8ed7/jni/react/renderer/components/safeareacontext/EventEmitters.cpp.o	72ac86069130a94
+76	11197	8039483050281346	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/8e2cdc99106eed646a3f77a0adbca21a/codegen/jni/react/renderer/components/safeareacontext/States.cpp.o	b827cf4666de9ebd
+29	4445	8039496450803606	CMakeFiles/appmodules.dir/OnLoad.cpp.o	82b5a564588bd791
+93	931	8039678167398242	build.ninja	89d8404da51f284c
+65	16870	8039483108616966	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/c19633973c8495dfefcb5bc979913c71/renderer/components/safeareacontext/ComponentDescriptors.cpp.o	db5712e65511b7f4
+98	12962	8039483069559571	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/8f6cda93f700c95cca3b0ce94b70ef1c/build/generated/source/codegen/jni/safeareacontext-generated.cpp.o	a65a8b8ce4af9424
+33	15878	8039483098716332	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/e4cc9caf3c0ef16cb156cd36c1e0da3a/renderer/components/safeareacontext/RNCSafeAreaViewState.cpp.o	c25ac295c7af309d
+88	15898	8039483098906999	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/95a7e74d6e575e69f971fd35b99c8ed7/jni/react/renderer/components/safeareacontext/ShadowNodes.cpp.o	2fb5299f5b10e855
+43	16440	8039483104251649	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/8e2cdc99106eed646a3f77a0adbca21a/codegen/jni/react/renderer/components/safeareacontext/Props.cpp.o	ea89d08929d17b4f
+23	6591	8039496472105042	CMakeFiles/appmodules.dir/C_/Users/pulup/CallShieldAI/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	4f52f40fe96bcdec
+23	17567	8039483115631233	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/e4cc9caf3c0ef16cb156cd36c1e0da3a/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp.o	a00ede772669b36c
+17568	17785	8039483117880006	C:/Users/pulup/CallShieldAI/android/app/build/intermediates/cxx/Debug/465a5836/obj/arm64-v8a/libreact_codegen_safeareacontext.so	e6f869d9dd73f72f
+6591	6832	8039496474656852	C:/Users/pulup/CallShieldAI/android/app/build/intermediates/cxx/Debug/465a5836/obj/arm64-v8a/libappmodules.so	a26c9b87ec0f0090
+2	25	0	C:/Users/pulup/CallShieldAI/android/app/.cxx/Debug/465a5836/arm64-v8a/CMakeFiles/cmake.verify_globs	a82cb695a94967ac
