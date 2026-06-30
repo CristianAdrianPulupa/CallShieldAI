@@ -1,25 +1,44 @@
-# Node
+# ==========================
+# Node / React Native
+# ==========================
 node_modules/
 
-# React Native
 android/.gradle/
 android/build/
 android/app/build/
+
 ios/build/
 
+# Expo
+.expo/
+.expo-shared/
+
+# ==========================
 # Python
+# ==========================
 backend/venv/
 __pycache__/
 *.pyc
+*.pyo
 
-# Firebase
-google-services.json
-
-# Logs
+# ==========================
+# Archivos temporales
+# ==========================
+backend/uploads/
 *.log
 
+# ==========================
+# Firebase
+# ==========================
+google-services.json
+
+# ==========================
 # VS Code
+# ==========================
 .vscode/
 
-# macOS
+# ==========================
+# Sistema Operativo
+# ==========================
 .DS_Store
+Thumbs.db

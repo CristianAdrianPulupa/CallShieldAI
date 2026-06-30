@@ -1,26 +1,25 @@
-from fastapi import FastAPI
-from transformers import pipeline
+from fastapi import FastAPI, UploadFile, File
+import shutil
+import os
+import uuid
 
 app = FastAPI()
 
-print("Cargando modelo...")
+UPLOAD_DIR = "uploads"
+os.makedirs(UPLOAD_DIR, exist_ok=True)
 
-clasificador = pipeline(
-    "text-classification",
-    model="tanaos/tanaos-spam-detection-spanish"
-)
+@app.post("/upload-audio")
+async def upload_audio(file: UploadFile = File(...)):
+    extension = os.path.splitext(file.filename)[1]
 
-print("Modelo cargado.")
+    unique_filename = f"{uuid.uuid4()}{extension}"
 
-@app.get("/")
-def inicio():
-    return {"mensaje": "Servidor funcionando"}
+    file_path = os.path.join(UPLOAD_DIR, unique_filename)
 
-@app.get("/analizar")
-def analizar():
+    with open(file_path, "wb") as buffer:
+        shutil.copyfileobj(file.file, buffer)
 
-    texto = "Necesito que me envíe el código que acaba de llegar a su celular."
-
-    resultado = clasificador(texto)
-
-    return resultado
+    return {
+        "message": "Audio recibido correctamente",
+        "filename": unique_filename
+    }
